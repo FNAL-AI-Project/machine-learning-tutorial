@@ -26,6 +26,11 @@ source setup.sh
 ### Docker setup
 _On its way -- need some help from Maria_
 
+### Binder
+
+You can launch notebooks in Binder for quick tests, but note this is not for resource-intensive computing:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FNAL-AI-Project/machine-learning-tutorial/master)
+
 ## Links
 
 The accompanying lecture is [here](https://www.dropbox.com/s/z5b5elnpqahfrjz/MLTutorial_2020_V1.pdf?dl=0)
