@@ -18,7 +18,7 @@ There are multiple ways to run through this tutorial with varying levels of setu
 
 ### Jupyter Hub
 
-In this setup, environment and data files have already been set up for you on available hardware.  At Fermilab, to access, use the link: `https://analytics-hub.fnal.gov:8080/` and sign in using your services account.  You need to be granteed the cluster permissions first.
+In this setup, environment and data files have already been set up for you on available hardware.  At Fermilab, to access, use the link: [https://analytics-hub.fnal.gov:8080/](https://analytics-hub.fnal.gov:8080/) and sign in using your services account.  You need to be granteed the cluster permissions first.
 
 ### Plain Miniconda3 setup
 
