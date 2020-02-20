@@ -32,7 +32,11 @@ source setup.sh
 ```
 
 ### Docker setup
-_On its way -- need some help here still_
+
+Run the tutorial directly in a Docker container on your local machine (requires Docker installation)
+```
+docker run -p 127.0.0.1:8888:8888 mapsacosta/ml-hats:latest
+```
 
 ### Binder
 
