@@ -41,6 +41,7 @@ docker run -p 127.0.0.1:8888:8888 mapsacosta/ml-hats:latest
 ### Binder
 
 You can launch notebooks in Binder for quick tests, but note this is not for resource-intensive computing:
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FNAL-AI-Project/machine-learning-tutorial/master)
 
 ## Links
