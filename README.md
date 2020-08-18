@@ -8,14 +8,22 @@ This is a set of tutorials for the Machine Learning Hands-on Advanced Tutorial S
 
  0. [`a-dataset-and-plot.ipynb`](a-dataset-and-plot.ipynb): reading/writing datasets from `ROOT` files with `uproot` and plotting with `matplotlib`
  1. [`b-dense.ipynb`](b-dense.ipynb): building, training, and evaluating a fully connected (dense) neural network in `Keras`
- 2. [`b.1-dense-pytorch.ipynb`](b.1-dense-pytorch.ipynb): preprocessing CMS open data to build jet-images (optional) 
- 3. [`c-conv2d.ipynb`](c-conv2d.ipynb): preprocessing, building, training, and evaluating a 2D convolutional neural network in `Keras` 
+ 2. [`b.1-dense-pytorch.ipynb`](b.1-dense-pytorch.ipynb): building, training, and evaluating a fully connected (dense) neural network in `PyTorch`
+ 3. [`b.2-dense-bayesian-optimization.ipynb`](b.2-dense-bayesian-optimization.ipynb): building, training, and evaluating a fully connected (dense) neural network in `Keras` and exploring hyperparameters
+ 4. [`c-conv2d.ipynb`](c-conv2d.ipynb): preprocessing, building, training, and evaluating a 2D convolutional neural network in `Keras` 
 
 ## Setup
 
-We will be setting up the environment using [Miniconda](https://docs.conda.io/en/latest/miniconda.html) wity Python3.  This is wrapped in a [Docker](https://www.docker.com/) container for easy deployment.  
+There are multiple ways to run through this tutorial with varying levels of setup required.
+
+### Jupyter Hub
+
+In this setup, environment and data files have already been set up for you on available hardware.  At Fermilab, to access, use the link: [https://analytics-hub.fnal.gov:8080/](https://analytics-hub.fnal.gov:8080/) and sign in using your services account.  You need to be granteed the cluster permissions first.
 
 ### Plain Miniconda3 setup
+
+We will be setting up the environment using [Miniconda](https://docs.conda.io/en/latest/miniconda.html) wity Python3.  This is wrapped in a [Docker](https://www.docker.com/) container for easy deployment.  
+
 ```
 # currently it's setup for Mac, change the file if you want to run on Linux
 source install_miniconda3.sh
@@ -24,7 +32,11 @@ source setup.sh
 ```
 
 ### Docker setup
-_On its way -- need some help from Maria_
+
+Run the tutorial directly in a Docker container on your local machine (requires Docker installation)
+```
+docker run -p 127.0.0.1:8888:8888 mapsacosta/ml-hats:latest
+```
 
 ### Binder
 
